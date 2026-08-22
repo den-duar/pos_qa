@@ -13,4 +13,7 @@ def test_fatorial_maior_que_zero():
 def test_fatorial_nao_negativo():
     assert not fatorial(5) < 0
 
+def test_fatorial_negativo():
+    with pytest.raises(ValueError):
+        fatorial(-1)
 # ... outros casos de teste
