@@ -11,3 +11,17 @@
 #### 4. Renda minima - Aprovação x Reprovação
 #### 5. Validar mascara dos campos
 - Tamanhos
+
+CT-02
+Titulo: Validar mascará do campo e-mail
+
+Objetivo: Validar se a mascara de e-mail está sendo corretamente exigida no preenchimento
+
+Pré-condições: Dado que eu esteja na página https://angelofdiasg.tech/qaprogramador/sacfunc/
+Campos obrigatórios preenchidos e válidos
+
+Passos: Selecionar o campo e-mail
+Digitar os caracteres, incluindo um "@" e um "."
+
+Resultado esperado:
+O sistema deve aprovar a avaliação de crédito
