@@ -1,5 +1,5 @@
 import pytest
-from fatorial import fatorial
+from src.fatorial import fatorial
 
 def test_fatorial_positivo():
     assert fatorial(5) == 120
