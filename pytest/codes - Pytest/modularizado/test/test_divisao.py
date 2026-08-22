@@ -21,3 +21,10 @@ def test_divisao_negativos():
 
 def test_divisao_misturados_resultado_negativo():
     assert divisao(10, -2) == -5
+
+def test_divisao_tipos_invalidos():
+    with pytest.raises(TypeError):
+        divisao(10, '2.5')
+
+def test_divisao_float():
+    assert divisao(10, 2.5) == 4.0
