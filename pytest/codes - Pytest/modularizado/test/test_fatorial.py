@@ -16,4 +16,9 @@ def test_fatorial_nao_negativo():
 def test_fatorial_negativo():
     with pytest.raises(ValueError):
         fatorial(-1)
+
+def test_fatorial_nao_inteiro():
+    with pytest.raises(TypeError):
+        fatorial(3.5)
+
 # ... outros casos de teste
