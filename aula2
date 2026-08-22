@@ -1,0 +1,13 @@
+# Lista de cenários
+#### 1. Campos obrigatorios
+- 1 ou mais casos
+#### 2. Tipo dos campos
+- 1 ou mais casos
+#### 3. Os limites de crédito
+- Valor limite (credito)
+    - 999, 1000, 1001, 49999, 50000, 50001
+- Partição de equivalencia (senha)
+    - 7, 14, 17
+#### 4. Renda minima - Aprovação x Reprovação
+#### 5. Validar mascara dos campos
+- Tamanhos
