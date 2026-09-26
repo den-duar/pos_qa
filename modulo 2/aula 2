@@ -1,0 +1,17 @@
+### Atividade ATDD ou BDD 
+
+```gherkin
+Dado que desejo realizar uma transferência bancaria com saldo disponivel em conta
+Quando fornecer <origem>, <destino> e <valor>
+Entao devo obter <resposta>
+
+
+| origem  | destino | valor | resposta                               |  
+| 111     | 222     | R$ 100| "Transferência realizada com sucesso"  |
+|         | 222     | R$ 50 | "Informe conta de origem"              |
+| 111     |         | R$ 50 | "Informe conta de destino"             |
+| 111     | 222     | R$ 00 | "Informe um valor para ser transferido"|
+```
+
+`Ver sobre Estimativa PERT`
+
